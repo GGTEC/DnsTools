@@ -1,0 +1,258 @@
+body {
+    max-height: 100vh;
+    font-family: 'Kanit';
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(170deg, 
+    rgba(107, 74, 140, 0.8) 20%, 
+    rgba(63, 20, 102, 0.5) 20%, 
+    rgba(4, 4, 5, 0.5) 35%, 
+    rgba(49, 57, 73, 0.5) 75%), 
+    linear-gradient(45deg, 
+    rgba(4, 4, 5, 0.8) 0%, 
+    rgba(55, 1, 67, 0.8) 50%, 
+    rgba(36, 8, 47, 0.8) 50%, 
+    rgba(48, 2, 59, 0.8) 100%) #260137;
+    overflow: hidden;
+    
+  }
+
+  .none-flex {
+    flex-wrap: nowrap !important;
+  }
+
+  .toast-body {
+    background-color: #000;
+  }
+  
+  .toast-header {
+    border: rgb(82, 82, 82) 1px solid !important;
+  }
+  
+  .bg-dark {
+    background-color: #000 !important;
+  }
+  
+  .text-muted-1{
+    color: rgb(244, 244, 244) !important;
+  }
+  
+  .main {
+    max-height: 100vh;
+  }
+  
+  .content {
+    height: 100vh !important;
+  }
+  
+  .input-group .btn {
+    position: relative;
+    z-index: 0;
+  }
+  
+  .disabled {
+    cursor: wait !important;
+  }
+  
+  .disabled span, .disabled i{
+    color: grey !important; 
+  }
+  
+  .disabled:hover {
+    background: #000 !important;
+  }
+  
+  .fa-chevron-left {
+    color: white;
+  }
+  
+  .fa-solid {
+    color: #Fff;
+  }
+  
+  .text_resize {
+    resize: none;
+    color: white;
+  }
+  
+  span {
+    color: white;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #594270;
+    border: 0px none transparent;
+    border-radius: 50px;
+    transition: all .25s linear;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover { background: #524267;}
+  ::-webkit-scrollbar-thumb:active { background: #754b99;}
+  ::-webkit-scrollbar-corner { background: #594270; }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  .container {
+    color: white;
+    position: relative;
+    height: 100%;
+  }
+  
+  .center-content{
+    position: relative;
+    width: 100%;
+    max-height: 100vh !important;
+    margin-left: 0% !important;
+  }
+  
+  .bottom-info {
+    position: relative;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 1%;
+    background-color: #000; 
+    padding: 1%;
+    border: #4f016c 2px solid;
+  }
+  
+  
+
+  
+
+  
+  .bt-submit {
+    border: solid #6f0196 2px !important;
+    color: white !important;
+    background-color: #000 !important;
+  }
+  
+  .bt-submit:hover {
+    outline: #6f0196;
+    background-color: #6f0196 !important;
+  }
+  
+  
+  .form-control, .form-control:focus {
+    color: white;
+  }
+  
+  
+  select ,input {
+    color: white;
+    border-color: #710299 !important;
+  }
+  
+  
+  select:active,
+  select:focus,
+  input[type="text"]:active ,
+  input[type="text"]:focus,
+  button:active,
+  button:focus {
+      border-color: #5f0181 !important;
+      outline: none !important;
+      box-shadow: inset 0 2px 2px rgba(148, 0, 194, 0.729),0 0 8px rgba(118, 0, 154, 0.781) !important;
+  }
+    
+select {
+    height: 40px !important;
+}   
+  
+
+  
+.h-scroll {
+    display: flex;
+    flex-direction: column;
+    height: 84vh; /* %-height of the viewport */
+    padding-top: 5%;
+    padding-bottom: 10%;
+    position:inherit;
+    overflow-y: scroll;
+    width: 100%;
+}
+  
+
+.purple-border-block {
+border:  solid #4f016c 2px;
+background-color: #000000;
+}
+
+  
+.dropdown-menu ,
+.bs-searchbox {
+background-color: #000 !important;
+}
+
+.bs-searchbox .form-control {
+background-color: #000 !important;
+}
+
+.dropdown-toggle {
+border-color: #5f0181 !important;
+}
+
+.dropdown-toggle:after {
+border-color: #5f0181 !important;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+outline: 0 !important;
+}
+
+.dropdown-item:hover {
+background-color: #4f016c !important;
+}
+
+.bs-searchbox .form-control {
+color: white !important;
+}
+
+.dropdown-menu .no-results {
+background-color: #000 !important;
+color: white !important;
+}
+  
+  
+hr:not([size]){
+height: 5px;
+}
+  
+hr {
+margin-top: 5%;
+margin-bottom: 5%;
+border-radius: 16px;
+opacity: 1 !important;
+background-color: #5f0181 !important;
+}
+  
+  
+  
+#select-message-edit-form .dropdown .dropdown-menu .inner .dropdown-item {
+white-space: pre-wrap !important;
+}
+  
+  
+.page-link {
+color: white;
+background-color: #000 !important;
+border: #927aac 2px solid !important;
+transition: 0.15s !important;
+}
+
+.page-link:hover {
+background-color: #754b99 !important;
+color: white !important;
+}
+
+.page-item.active .page-link {
+color: white !important;
+background-color: #754b99 !important;
+border: #927aac 2px solid !important;
+}
